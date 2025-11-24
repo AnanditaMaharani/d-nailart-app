@@ -2,7 +2,7 @@ const statusEl = document.getElementById('status');
 const buyBtn   = document.getElementById('buyBtn');
 
 // GANTI dengan wallet kamu
-const SELLER_ADDRESS = "0xYOUR_WALLET_ADDRESS_HERE";
+const SELLER_ADDRESS = "0x1361f48caf529a1a9b5e1fea4ec80ae9f52b66fd";
 
 function setStatus(msg, type = "") {
   if (!statusEl) return;
@@ -17,7 +17,7 @@ function parseEtherToHexWei(str){
   const intBig = BigInt(intPart || "0");
   const decStr = (decPartRaw.replace(/\D/g,"") + "0".repeat(18)).slice(0,18);
   const wei = intBig * (10n ** 18n) + BigInt(decStr || "0");
-  return "0x" + wei.toString(16);
+  return "0x1361f48caf529a1a9b5e1fea4ec80ae9f52b66fd" + wei.toString(16);
 }
 
 if (buyBtn) {

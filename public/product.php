@@ -23,20 +23,7 @@ if (!$p) {
 <body class="page-bg">
 
 <div class="page">
-  <!-- NAVBAR SEDERHANA (SAMA TEMA DENGAN INDEX) -->
-  <header class="nav" style="margin-bottom:10px;">
-    <div class="brand">
-      <div class="logo-circle">NA</div>
-      <div>
-        <div class="brand-title">NailArt DApp</div>
-        <div class="brand-sub">Digital Nail Designs • Detail Produk</div>
-      </div>
-    </div>
-    <div class="nav-pill">
-      MetaMask • ETH
-    </div>
-  </header>
-
+    <?php include __DIR__ . "/components/navbar.php"; ?>
   <a href="index.php" class="back-link">← Kembali ke katalog</a>
 
   <section class="detail">

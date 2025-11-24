@@ -9,10 +9,9 @@
 
     <nav class="nav-menu">
         <a href="index.php">Home</a>
-        <a href="catalog.php">Catalog</a>
+        <a href="">About Us</a>
         <a href="orders.php">My Orders</a>
     </nav>
-
     <div class="nav-pill">
         MetaMask • ETH
     </div>
